@@ -1,0 +1,22 @@
+{
+  "name": "date-helper",
+  "version": "1.0.0",
+  "description": "date helper",
+  "types": "./types/index.d.ts",
+  "main": "./build/date.helper.js",
+  "author": "DiaaSaada",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git://github.com/DiaaSaada/date-helper.git"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.5.2"
+  }
+}
